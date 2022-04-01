@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+}
+
+select{
+  -webkit-appearance:none;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.login-text{
+  background-color: rgb(235, 235, 235) !important;
+  border: rgb(235, 235, 235) !important;
+  color: rgb(14, 14, 14) !important;
+}
+
+.self-image{
+  object-position: center !important;
+  object-fit: contain !important;
+}
+
+
+.login-button{
+  width: 200px !important;
+}
+
+#sign-up-description{
+  font-size: 1.5rem;
+  font-weight:500;
+}
+
+.chatroom-logo{
+  text-align: left !important;
+}
+
+.sidebar-container{
+  padding: 0 !important;
+}
+
+.message-box-container{
+  width: inherit;
+}
+
+.plus-button{
+  border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+
+    font: 32px Arial, sans-serif;
+}
+
+.list-group-hover:hover{
+  background-color: #292b2c !important; 
+}
+
+.rooms-container{
+  max-height: 70% !important;
+  overflow-y: auto;
+}
+
+
+
+@media only screen and (max-width: 1250px) {
+  .row > .user-names-container{
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+}
+
+.self-image{
+  width: 100px !important;
+  /* height: 100px !important; */
+  /* background-size: cover; */
+}
+
+.message-image{
+  width: 25px;
+  height: 25px;
+}
+
+.message-container{
+  max-height: 75%;
+  overflow-y: auto;
+}
+
+
+@media only screen and (max-height: 820px) {
+  .message-container, .rooms-container{
+    max-height: 70%;
+  }
+
+  .rooms-container{
+    max-height: 60%;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .message-container{
+    max-height: 50%;
+  }
+
+  .rooms-container{
+    max-height: 40% !important;
+  }
+}
+
+@media only screen and (max-height: 300px) {
+  .message-container, .rooms-container{
+    display: none;
+  }
+
+  .chat-box-logo{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .app{
+    height: 100% !important;
+  }
+  .col-sm-9 > .message-box-container{
+    position: sticky !important;
+    top: 100vh !important;
+  }
+}
+
+
+::-webkit-scrollbar{
+  background-color: #292b2c !important;
+}
+
+::-webkit-scrollbar-track{
+  background: #292b2c !important;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #000000 !important;
+  border-radius: 35%;
+}
+
+
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(14, 14, 14) !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: grey !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: grey !important;
+}
+
