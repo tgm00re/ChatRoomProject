@@ -12,6 +12,7 @@ select{
   box-sizing: border-box;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -47,7 +48,7 @@ select{
 }
 
 .message-box-container{
-  width: inherit;
+  width: 100%;
 }
 
 .plus-button{
@@ -101,6 +102,21 @@ select{
 }
 
 
+#message-send-button{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#message-send-button > img{
+  width: 50px !important;
+}
+
+
 @media only screen and (max-height: 820px) {
   .message-container, .rooms-container{
     max-height: 70%;
@@ -138,8 +154,56 @@ select{
   .col-sm-9 > .message-box-container{
     position: sticky !important;
     top: 100vh !important;
+    width: 100vw !important;
+  }
+
+  .message-container{
+    max-height: 80% !important;
+  }
+
+  .message-box-container{
+    padding: 0 !important;
+  }
+
+  #messagesEndRef{
+    background-color: gree !important;
+    padding: 0 !important;
+    margin: 0 !important
+  }
+
+  .show-mobile{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    display: block;
+  }
+
+  .hide-mobile{
+    display: none !important;
+  }
+
+  #room-list{
+    overflow-y: scroll !important;
+    max-height: 250px;
+  }
+
+  #home-button{
+    width: 50px !important;
+  }
+
+  #logout-button{
+    width: 100px !important;
+  }
+
+  
+}
+
+@media only screen and (min-width: 576px) {
+  .show-mobile{
+    display: none!important;
   }
 }
+
 
 
 ::-webkit-scrollbar{
@@ -155,7 +219,20 @@ select{
   border-radius: 35%;
 }
 
+::-webkit-scrollbar{
+  display: none !important;
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important; /* Firefox */
+}
 
+::-webkit-scrollbar-track{
+  background: #292b2c !important;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #000000 !important;
+  border-radius: 35%;
+}
 
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -170,4 +247,8 @@ select{
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: grey !important;
 }
+
+
+
+
 

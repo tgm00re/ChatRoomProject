@@ -15,6 +15,7 @@ export default function Login() {
         let isMounted = true;
         if(isMounted){
             const token = localStorage.getItem("userToken")
+            console.log(token);
             if (token != null){
                 history.push('/dashboard')
             }

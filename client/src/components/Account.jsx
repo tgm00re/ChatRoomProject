@@ -99,9 +99,8 @@ export default function Account() {
     return (
         <>
             <div className="container-fluid vh-100 bg-dark bg-gradient">
-                
-                <Link to="/dashboard"><img alt="home icon" src={icon} style={{position: 'absolute', top: '10px', left: '10px', width: '75px'}}/></Link>
-                <button onClick={logout} className="btn btn-danger bg-gradient rounded-pill p-2 login-button" style={{position: 'absolute', top: '10px', right: '10px', width: '50px'}}><strong>Logout</strong></button>
+                <Link to="/dashboard"><img alt="home icon" src={icon} style={{position: 'absolute', top: '10px', left: '10px', width: '75px', zIndex: "2"}} id="home-button"/></Link>
+                <button onClick={logout} className="btn btn-danger bg-gradient rounded-pill p-2 login-button" style={{position: 'absolute', top: '10px', right: '10px', width: '50px', zIndex: "2"}} id="logout-button"><strong>Logout</strong></button>
                 
                 <div className="row h-100">
                     <div className="col-xl-12 bg-dark bg-gradient text-light">
