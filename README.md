@@ -1,6 +1,9 @@
 # ChatRoomProject
-Chat Room Project Re-deployment
-
+Chat Room Project 
+- - - - - - - - - -
+To View the project:
+http://3.80.222.199
+- - - - - - - - - -
 Created website that alows users to login/register, create/join rooms, have live chats with other users, and modify their profiles
 
 There was no wireframe for this project. Instead, I took inspiration from Diprella.com and chat applications such as discord.
