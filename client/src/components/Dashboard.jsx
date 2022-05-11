@@ -235,7 +235,7 @@ export default function Dashboard() {
                                 currentRoomId === 0 ?
                                     <h2 className="border-bottom pb-2 border-light">Join a room to start chatting!</h2>
                                     :
-                                    <h2 className="border-bottom pb-2 border-light">{currentRoom.name} xx</h2>
+                                    <h2 className="border-bottom pb-2 border-light">{currentRoom.name}</h2>
                             }
                         </div>
                         <div className="row mt-0 pb-0 message-container">
