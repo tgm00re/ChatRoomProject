@@ -2,7 +2,7 @@
 Chat Room Project 
 - - - - - - - - - -
 To View the project:
-http://3.80.222.199. PLEASE OPEN THIS IS A NEW TAB!
+http://3.80.222.199. PLEASE OPEN THIS IN A NEW TAB!
 - - - - - - - - - -
 Created website that alows users to login/register, create/join rooms, have live chats with other users, and modify their profiles
 
