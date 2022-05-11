@@ -5,6 +5,7 @@ To View the project:
 http://3.80.222.199. PLEASE OPEN THIS IN A NEW TAB!
 
 Don't want to create your own account?
+
 Email: test@user.com
 
 Password: password
