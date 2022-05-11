@@ -40,3 +40,16 @@ Dashboard
 Account Editing Page
 
 ![Screen Shot 2022-05-02 at 5 02 42 PM](https://user-images.githubusercontent.com/94810636/166327235-33f9b4ce-c3ec-47fe-aa93-d2e9aad51308.png)
+
+- - - - - - - - - -
+**MOBILE VERSION**
+- - - - - - - - - -
+![chatroommobile1](https://user-images.githubusercontent.com/94810636/167943104-a31fcc54-d21a-4b79-b26d-8241a7a5c8bd.jpg)
+![chatroommobile2](https://user-images.githubusercontent.com/94810636/167943116-41d4a4ad-ba3a-40a0-9ac5-1a19e4cb1219.jpg)
+![chatroommobile3](https://user-images.githubusercontent.com/94810636/167943133-ab6a798d-53d2-4c20-8272-319afe54cc9e.jpg)
+![chatroommobile4](https://user-images.githubusercontent.com/94810636/167943157-15492e6d-bb0d-4645-93f0-009a6a7e71a4.jpg)
+![chatroommobile5](https://user-images.githubusercontent.com/94810636/167943177-22c30152-c4f4-4872-8bff-750ad89e6621.jpg)
+
+
+
+
