@@ -71,8 +71,9 @@ select{
 
 .rooms-container{
   max-height: 70% !important;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
+
 
 
 
