@@ -6,6 +6,7 @@ http://3.80.222.199. PLEASE OPEN THIS IN A NEW TAB!
 
 Don't want to create your own account?
 Email: test@user.com
+
 Password: password
 - - - - - - - - - -
 Created website that alows users to login/register, create/join rooms, have live chats with other users, and modify their profiles
